@@ -4,7 +4,7 @@ A github best practice cheat sheet for designers and new developers who want **c
 
 ---
 
-## Core Concepts
+## Summary
 - **Repository (repo)** = your project folder tracked by Git.
 - **Commit** = a snapshot of your changes.
 - **Push** = send your changes to GitHub.
@@ -14,7 +14,7 @@ A github best practice cheat sheet for designers and new developers who want **c
 
 ---
 
-## Terminal Basics
+## Terminal basics
 
 ### Setup (One-Time)
 ```bash
