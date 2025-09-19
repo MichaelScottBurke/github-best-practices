@@ -1,10 +1,10 @@
-# GitHub Cheat Sheet & Daily Best Practices
+# GitHub for designers
 
-This guide is designed for beginners who want **clear, repeatable habits** when working with GitHub. It covers core concepts, daily workflows, and good developer hygiene — useful whether you’re collaborating with others or working solo.
+A github best practice cheat sheet for designers and new developers who want **clear, repeatable habits** working with GitHub. This covers core concepts, daily workflows, and good developer hygiene — useful whether you’re collaborating with others or working alone.
 
 ---
 
-## Core Concepts (Simplified)
+## Core Concepts
 - **Repository (repo)** = your project folder tracked by Git.
 - **Commit** = a snapshot of your changes.
 - **Push** = send your changes to GitHub.
@@ -64,7 +64,8 @@ git branch -d feature-branch-name
 
 ---
 
-## GitHub Desktop Basics
+## GitHub desktop basics
+Github desktop is an app that lets you focus on the git workflow without having to learn terminal commands
 
 - **New Repo** → File → New Repository → Create.
 - **Publish** → Click *Publish Repository*.
@@ -200,7 +201,7 @@ Pull Requests (PRs) are how changes in one branch are proposed, reviewed, and me
 
 ---
 
-## Designer-Friendly Summary
+## Designer-friendly summary
 
 | Action       | You’re saying…                      | Typical Use |
 |--------------|-------------------------------------|-------------|
@@ -214,10 +215,6 @@ Pull Requests (PRs) are how changes in one branch are proposed, reviewed, and me
 
 ---
 
-## Visual Flow
+## Flow
 
 1. Pull latest changes → 2. Create branch → 3. Do work → 4. Commit often → 5. Push → 6. Open PR → 7. Merge → 8. Delete branch
-
----
-
-Tip: Treat this like brushing your teeth. Doing i
