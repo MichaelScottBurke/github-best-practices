@@ -1,10 +1,10 @@
-# 🧰 GitHub Cheat Sheet & Daily Best Practices
+# GitHub Cheat Sheet & Daily Best Practices
 
 This guide is designed for beginners who want **clear, repeatable habits** when working with GitHub. It covers core concepts, daily workflows, and good developer hygiene — useful whether you’re collaborating with others or working solo.
 
 ---
 
-## 🧠 Core Concepts (Simplified)
+## Core Concepts (Simplified)
 - **Repository (repo)** = your project folder tracked by Git.
 - **Commit** = a snapshot of your changes.
 - **Push** = send your changes to GitHub.
@@ -14,57 +14,57 @@ This guide is designed for beginners who want **clear, repeatable habits** when 
 
 ---
 
-## 🖥️ Terminal Basics
+## Terminal Basics
 
-### 🔧 Setup (One-Time)
+### Setup (One-Time)
 ```bash
 git config --global user.name "Your Name"
 git config --global user.email "your@email.com"
 ```
 
-### 📁 Start a New Project
+### Start a New Project
 ```bash
 mkdir my-project
 cd my-project
 git init
 ```
 
-### 📝 Track & Save Changes
+### Track & Save Changes
 ```bash
 git add .
 git commit -m "Initial commit"
 ```
 
-### 🚀 Connect to GitHub
+### Connect to GitHub
 ```bash
 git remote add origin https://github.com/yourusername/repo-name.git
 git push -u origin main
 ```
 
-### 🔄 Get Latest Updates
+### Get Latest Updates
 ```bash
 git pull origin main
 ```
 
-### 🌿 Work in a Branch
+### Work in a Branch
 ```bash
 git checkout -b feature-branch-name
 ```
 
-### ✅ Merge Branch
+### Merge Branch
 ```bash
 git checkout main
 git merge feature-branch-name
 ```
 
-### 🗑️ Delete Branch
+### Delete Branch
 ```bash
 git branch -d feature-branch-name
 ```
 
 ---
 
-## 🖱️ GitHub Desktop Basics
+## GitHub Desktop Basics
 
 - **New Repo** → File → New Repository → Create.
 - **Publish** → Click *Publish Repository*.
@@ -74,14 +74,14 @@ git branch -d feature-branch-name
 
 ---
 
-## 🔁 Clone vs Fork
+## Clone vs Fork
 
 - **Clone** → *“Work with this repo directly.”* → For team projects.
 - **Fork** → *“Make my own copy.”* → For open-source or experiments.
 
 ---
 
-## 🌿 Branching Best Practices
+## Branching Best Practices
 
 1. **Always work in a branch**
    ```bash
@@ -99,9 +99,9 @@ git branch -d feature-branch-name
 
 ---
 
-## 📅 Daily Best Practices (Developer Hygiene)
+## Daily Best Practices (Developer Hygiene)
 
-Whether solo or on a team, follow these steps each workday:
+Whether you're working alone or on a team, follow these steps each workday:
 
 ### 🔄 Morning Routine
 1. **Start fresh**
@@ -115,12 +115,12 @@ Whether solo or on a team, follow these steps each workday:
    git merge main
    ```
 
-### ✍️ While Working
+### While Working
 - Commit frequently (small, clear commits).
 - Write meaningful commit messages.
 - Keep your branch focused on one task.
 
-### 🌙 End of Day
+### End of Day
 1. Save work:
    ```bash
    git add .
@@ -134,11 +134,11 @@ Whether solo or on a team, follow these steps each workday:
 
 ---
 
-## 📎 Pull Requests (PRs)
+## Pull Requests (PRs)
 
 Pull Requests (PRs) are how changes in one branch are proposed, reviewed, and merged into another branch (usually `main`). Even if you’re working solo, using PRs builds good habits and gives you a history of changes.
 
-### 👩‍💻 As the Requestor (Author)
+### As the Requestor (Author)
 1. **Finish your branch work**
    - Commit and push all changes.
    - Ensure your branch is up to date with `main`.
@@ -167,7 +167,7 @@ Pull Requests (PRs) are how changes in one branch are proposed, reviewed, and me
 
 ---
 
-### 👀 As the Reviewer
+### As the Reviewer
 1. **Read the Description**
    - Understand what the author is changing and why.
 
@@ -192,7 +192,7 @@ Pull Requests (PRs) are how changes in one branch are proposed, reviewed, and me
 
 ---
 
-### 🧠 Why Pull Requests Matter
+### Why Pull Requests Matter
 - Creates a review step before code goes into `main`.
 - Documents *why* a change was made.
 - Builds team trust (or future-you trust, if working solo).
@@ -200,7 +200,7 @@ Pull Requests (PRs) are how changes in one branch are proposed, reviewed, and me
 
 ---
 
-## 🧠 Designer-Friendly Summary
+## Designer-Friendly Summary
 
 | Action       | You’re saying…                      | Typical Use |
 |--------------|-------------------------------------|-------------|
@@ -214,10 +214,10 @@ Pull Requests (PRs) are how changes in one branch are proposed, reviewed, and me
 
 ---
 
-## 🗂️ Visual Flow
+## Visual Flow
 
 1. Pull latest changes → 2. Create branch → 3. Do work → 4. Commit often → 5. Push → 6. Open PR → 7. Merge → 8. Delete branch
 
 ---
 
-✅ Tip: Treat this like brushing your teeth. Doing i
+Tip: Treat this like brushing your teeth. Doing i
